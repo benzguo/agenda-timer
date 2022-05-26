@@ -3350,7 +3350,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tamagui/font-inter@npm:1.0.1-beta.37":
+"@tamagui/font-inter@npm:1.0.1-beta.37, @tamagui/font-inter@npm:^1.0.1-beta.37":
   version: 1.0.1-beta.37
   resolution: "@tamagui/font-inter@npm:1.0.1-beta.37"
   dependencies:
@@ -3579,7 +3579,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tamagui/theme-base@npm:1.0.1-beta.37":
+"@tamagui/theme-base@npm:1.0.1-beta.37, @tamagui/theme-base@npm:^1.0.1-beta.37":
   version: 1.0.1-beta.37
   resolution: "@tamagui/theme-base@npm:1.0.1-beta.37"
   dependencies:
@@ -4313,10 +4313,13 @@ __metadata:
   resolution: "agenda-timer@workspace:."
   dependencies:
     "@manypkg/cli": ^0.19.1
+    "@tamagui/font-inter": ^1.0.1-beta.37
+    "@tamagui/theme-base": ^1.0.1-beta.37
     "@types/react": ^17.0.39
     "@types/react-native": ^0.67.2
     eslint: ^8.11.0
     prettier: ^2.6.2
+    tamagui: ^1.0.1-beta.37
     turbo: ^1.1.6
     typescript: ^4.6.3
   languageName: unknown
